@@ -490,7 +490,7 @@ h3.profile-title {
   height: 100%;
   top: 40px;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   visibility: 0;
   -webkit-transition: all 200ms linear;
@@ -505,9 +505,13 @@ h3.profile-title {
   left: 0;
   bottom: 0;
   padding: 30px;
+
+  
 }
 .project-hover h5 {
-  font-size: 16px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 .project-hover h5 a {
@@ -515,8 +519,8 @@ h3.profile-title {
 }
 .project-hover p {
   color: white;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 23px;
 }
 
 /*------ contact ------ */
@@ -556,9 +560,4 @@ h3.profile-title {
   color: #6cc0f7;
 }
 
-#md {
-height: 272px;
-width: 345px;
-align-content: center;
-}
 
